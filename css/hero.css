@@ -1,0 +1,131 @@
+html {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0c0c1d), to(#111132));
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+}
+.hero .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+}
+.hero .wrapper .textcontainer {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+@media (max-width: 738px) {
+  .hero .wrapper .textcontainer {
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+.hero .wrapper .textcontainer h2 {
+  font-size: 30px;
+  color: rebeccapurple;
+  letter-spacing: 5px;
+}
+@media (max-width: 738px) {
+  .hero .wrapper .textcontainer h2 {
+    font-size: 20px;
+  }
+}
+.hero .wrapper .textcontainer h1 {
+  font-size: 80px;
+}
+@media (max-width: 738px) {
+  .hero .wrapper .textcontainer h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+.hero .wrapper .textcontainer .buttons button {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  margin: 20px;
+  font-weight: 300;
+}
+@media (max-width: 738px) {
+  .hero .wrapper .textcontainer .buttons button {
+    padding: 10px;
+  }
+}
+.hero .wrapper .textcontainer img {
+  width: 50px;
+}
+.hero .imageContainer {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media (max-width: 738px) {
+  .hero .imageContainer {
+    height: 50%;
+    width: 100%;
+    top: unset;
+    bottom: 0;
+  }
+}
+.hero .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .slidingTextContainer {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.0352941176);
+  width: 50%;
+}
