@@ -73,6 +73,7 @@ section {
 @media (max-width: 738px) {
   .hero .wrapper .textcontainer h2 {
     font-size: 20px;
+    margin-top: 35px;
   }
 }
 .hero .wrapper .textcontainer h1 {
@@ -100,6 +101,11 @@ section {
 }
 .hero .wrapper .textcontainer img {
   width: 50px;
+}
+@media (max-width: 738px) {
+  .hero .wrapper .textcontainer img {
+    margin-top: -20px;
+  }
 }
 .hero .imageContainer {
   height: 100%;

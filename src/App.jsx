@@ -1,4 +1,3 @@
-import Test from "./Test";
 import Parallax from "./components/parallax/Parallax"; 
 import "./app.scss"
 import Hero from "./components/hero/Hero";

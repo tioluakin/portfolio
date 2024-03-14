@@ -36,7 +36,7 @@ const Services = () => {
 		>
 			<motion.div className="textcontainer" variants={variants}>
 				<p>
-					I focus on helping yor brand grow <br /> and move forward
+					I focus on helping your brand grow <br /> and move forward
 				</p>
 				<hr />
 			</motion.div>
@@ -52,7 +52,7 @@ const Services = () => {
 						<motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
 						Business
 					</h1>
-					<button>WHAT WE DO?</button>
+					<button>WHAT I DO?</button>
 				</div>
 			</motion.div>
 			<motion.div className="listcontainer" variants={variants}>
@@ -60,17 +60,26 @@ const Services = () => {
 					className="box"
 					whileHover={{ background: "lightgray", color: "black" }}
 				>
-					<h2>Frontend Development</h2>
+					<h2>Web App Development</h2>
 					<p>
-						Experienced frontend developer specializing in HTML, CSS,
+						{/* Experienced frontend developer specializing in HTML, CSS,
 						JavaScript, and React, alongside other modern web technologies.
 						Dedicated to creating visually stunning and interactive user
-						interfaces to deliver exceptional user experiences.
+						interfaces to deliver exceptional user experiences. */}
+						As an experienced website developer, I'm dedicated to crafting
+						visually stunning, robust, and secure websites. I prioritize both
+						design excellence and ensuring a healthy and safe browsing
+						experience for visitors. My expertise lies in creating websites that
+						not only look impressive but also function flawlessly across devices
+						and browsers while implementing strong security measures to protect
+						against threats. With a focus on creativity, technical expertise,
+						and security, I empower businesses and individuals to establish a
+						trustworthy online presence that fosters growth.
 					</p>
 					<button>Go</button>
 				</motion.div>
 
-				<motion.div
+				{/* <motion.div
 					className="box"
 					whileHover={{ background: "lightgray", color: "black" }}
 				>
@@ -81,7 +90,7 @@ const Services = () => {
 						crafting robust solutions for seamless user experiences.
 					</p>
 					<button>Go</button>
-				</motion.div>
+				</motion.div> */}
 
 				<motion.div
 					className="box"

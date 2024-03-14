@@ -33,7 +33,7 @@ section {
 .portfolio .progress {
   position: sticky;
   top: 0;
-  left: 0;
+  left: 0rem;
   padding-top: 50px;
   text-align: center;
   color: orange;
@@ -41,13 +41,18 @@ section {
 }
 @media (max-width: 738px) {
   .portfolio .progress {
-    padding-top: calc(100vh - 100px);
-    font-size: 24px;
+    font-size: 20px;
+    top: 700px;
   }
 }
 .portfolio .progress .progressBar {
   height: 10px;
   background-color: white;
+}
+@media (max-width: 738px) {
+  .portfolio .progress .progressBar {
+    height: 5px;
+  }
 }
 .portfolio .container {
   display: -webkit-box;
@@ -127,7 +132,7 @@ section {
   .portfolio .container .wrapper .textcontainer {
     -webkit-transform: none !important;
             transform: none !important;
-    padding: 10px;
+    padding: 0 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -158,4 +163,9 @@ section {
   padding: 10px;
   width: 200px;
   cursor: pointer;
+}
+@media (max-width: 738px) {
+  .portfolio .container .wrapper .textcontainer button {
+    margin-top: -5px;
+  }
 }

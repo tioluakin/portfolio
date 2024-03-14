@@ -29,6 +29,7 @@ section {
 
 .navbar {
   height: 100px;
+  background-color: transparent;
 }
 .navbar .wrapper {
   max-width: 1366px;

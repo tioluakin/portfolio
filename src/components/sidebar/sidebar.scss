@@ -34,6 +34,12 @@ align-items: center;
 justify-content: center;
 gap: 20px;
 
+
+  .links:active{
+    color: yellow;
+  }
+
+
 a{
 font-size: 30px;
 
