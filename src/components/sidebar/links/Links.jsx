@@ -30,7 +30,7 @@ opacity:0,
 
 
 const Links = () =>{
-	const items = ["Homepage", "Services", "Portfolio", "About", "Contact"];
+	const items = ["Homepage", "Services", "Portfolio", "Contact"];
 
 	return (
 		<motion.div className="links" variants={variants}>
