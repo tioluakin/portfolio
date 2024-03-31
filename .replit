@@ -12,3 +12,7 @@ language = "nodejs"
 deploymentTarget = "static"
 publicDir = "dist"
 run = ["sh", "-c", "npm run start"]
+
+[[ports]]
+localPort = 10000
+externalPort = 80
