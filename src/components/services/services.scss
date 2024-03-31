@@ -109,45 +109,53 @@
       width: 100%;
     }
 
-  .box {
-    padding: 50px;
-    border: 0.5px solid gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    @include mobile {
-      border: 0.1px solid orange;
-      align-items: center;
-      gap: 20px;
-      padding: 30px;
-    
-    }
-
-    p {
-      @include mobile {
-        display: none;
-      }
-    }
-
-    button {
-      padding: 10px;
-      background-color: orange;
-      border: none;
-      cursor: pointer;
+    .box {
+      padding: 50px;
+      border: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       @include mobile {
-        background-color: transparent;
-        border: 1px solid orange;
-        border-radius: 5px;
-        color: orange;
-        width: 50%;
-        padding: 5px;
-        display: none;
+        border: 0.1px solid orange;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+
+        box:active p {
+          display: none;
+        }
+
+
+
       }
-     }
-   }
+
+      p {
+        @include mobile {
+          display: none;
+        }
+
+
+
+
+      }
+
+      button {
+        padding: 10px;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+
+        @include mobile {
+          background-color: transparent;
+          border: 1px solid orange;
+          border-radius: 5px;
+          color: orange;
+          width: 50%;
+          padding: 5px;
+          display: none;
+        }
+      }
+    }
   }
 }
-
-

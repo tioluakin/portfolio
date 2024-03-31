@@ -202,6 +202,9 @@ section {
     gap: 20px;
     padding: 30px;
   }
+  .services .listcontainer .box box:active p {
+    display: none;
+  }
 }
 @media (max-width: 738px) {
   .services .listcontainer .box p {

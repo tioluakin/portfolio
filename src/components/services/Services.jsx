@@ -2,6 +2,8 @@ import "./services.scss";
 import { motion, useInView } from "framer-motion";
 import React, { useRef } from "react";
 
+
+
 const variants = {
 	initial: {
 		x: -500,
@@ -62,10 +64,7 @@ const Services = () => {
 				>
 					<h2>Web App Development</h2>
 					<p>
-						{/* Experienced frontend developer specializing in HTML, CSS,
-						JavaScript, and React, alongside other modern web technologies.
-						Dedicated to creating visually stunning and interactive user
-						interfaces to deliver exceptional user experiences. */}
+				
 						As an experienced website developer, I'm dedicated to crafting
 						visually stunning, robust, and secure websites. I prioritize both
 						design excellence and ensuring a healthy and safe browsing
@@ -79,18 +78,7 @@ const Services = () => {
 					<button>Go</button>
 				</motion.div>
 
-				{/* <motion.div
-					className="box"
-					whileHover={{ background: "lightgray", color: "black" }}
-				>
-					<h2>Backend Development</h2>
-					<p>
-						Experienced in backend development with proficiency in SQL,
-						JavaScript, Python, Ruby, Java, PHP, and C#. Specializing in
-						crafting robust solutions for seamless user experiences.
-					</p>
-					<button>Go</button>
-				</motion.div> */}
+
 
 				<motion.div
 					className="box"

@@ -20,7 +20,7 @@ const items = [
 	{
 		id: 3,
 		title: "R-Pro Travels and Tours Limited",
-		img: "https://flight.rprotravels.com/assets/img1/logo2.jpg",
+		img: "https://rprotravels.com.ng/assets/img1/logo2.jpg",
 		desc: "Successfully overhauling R-PRO's online presence, the website development project delivers a user-friendly platform, streamlining travel booking and enhancing customer engagement. With intuitive design, comprehensive features, and mobile responsiveness, the website cements R-PRO's status as a trusted travel partner, propelling business growth in the competitive travel industry.",
 	},
 
