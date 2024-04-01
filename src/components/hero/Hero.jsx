@@ -55,16 +55,16 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>Tioluwalashe Akinbule</motion.h2>
+          <motion.h2 variants={textVariants}> I am Tiolu</motion.h2>
           <motion.h1 variants={textVariants}>
             {" "}
-          Web App developer, UX Designer, Project Manager
+            Web Development Examples Below.
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            {/* <motion.button variants={textVariants}>
               See the Latest Work
-            </motion.button>
-            <motion.button variants={textVariants}> Contact Me</motion.button>
+            </motion.button> */}
+            <motion.button variants={textVariants}> GET IN TOUCH</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -83,14 +83,12 @@ const Hero = () => {
         project Manager
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/hero11.png" alt="" />
       </div>
     </div>
   );
 };
 
 export default Hero;
-
-
 
 

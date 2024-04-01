@@ -65,7 +65,7 @@ const Single = ({ item }) => {
             )}
             {item.id === 2 && (
               <a
-                href="https://link-to-demo-2.com"
+                href="https://coolfinancials.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,7 +83,7 @@ const Single = ({ item }) => {
             )}
             {item.id === 4 && (
               <a
-                href="https://link-to-demo-4.com"
+                href="https://www.hiskindfoundation.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -124,4 +124,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-

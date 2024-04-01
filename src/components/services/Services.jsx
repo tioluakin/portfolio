@@ -62,52 +62,40 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Web App Development</h2>
+          <h2>Development</h2>
           <p>
-
-            As an experienced website developer, I'm dedicated to crafting
-            visually stunning, robust, and secure websites. I prioritize both
-            design excellence and ensuring a healthy and safe browsing
-            experience for visitors. My expertise lies in creating websites that
-            not only look impressive but also function flawlessly across devices
-            and browsers while implementing strong security measures to protect
-            against threats. With a focus on creativity, technical expertise,
-            and security, I empower businesses and individuals to establish a
-            trustworthy online presence that fosters growth.
+            Clean and sustainable. All sites are coded with performance and
+            functionality in mind, no matter if it's a small business landing
+            page or large web application, the best practices and tools are
+            used.
           </p>
-          <button>Go</button>
-        </motion.div>
-
-
-
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>UI/UX Design</h2>
-          <p>
-            Experienced UX/UI designer dedicated to creating intuitive and
-            visually compelling digital experiences. From research to
-            wireframing and prototyping, I focus on user-centric design to meet
-            both user needs and business goals. Let's collaborate to bring
-            engaging and impactful designs to life.
-          </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
         </motion.div>
 
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Project Managment</h2>
+          <h2>Design</h2>
           <p>
-            As the go-to project manager, I excel in orchestrating teams and
-            navigating complex projects with finesse and efficiency. My
-            proactive problem-solving, effective communication, and strategic
-            mindset consistently deliver exceptional results, earning trust as a
-            reliable leader in any endeavor.
+            Crafted with intention, my websites prioritize user experience,
+            employing visually captivating designs to engage and retain user
+            attention regardless of screen size.
           </p>
-          <button>Go</button>
+          {/* <button>Go</button> */}
+        </motion.div>
+
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Deploy</h2>
+          <p className="deploy">
+            From configuring the hosting and domain to managing site maintenance
+            and updates, the deployment process is effortlessly streamlined,
+            ensuring a seamless experience from start to finish.
+          </p>
+          {/* <button>Go</button> */}
         </motion.div>
       </motion.div>
     </motion.div>

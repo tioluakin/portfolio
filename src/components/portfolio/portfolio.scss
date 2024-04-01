@@ -13,12 +13,12 @@ position: relative;
   text-align: center;
   color: orange;
   font-size: 36px;
+  z-index: 0;
 
       @include mobile {
-        // padding-top: calc(106vh - 106px);
-        font-size: 20px;
-      //  bottom: -350px;
-      top: 700px;
+        padding-top: calc(106vh - 106px);
+        font-size: 15px;
+      overflow: hidden;
 
         }
 
@@ -67,20 +67,24 @@ gap: 50px;
  flex: 1;
  height: 50%;
 
+.imagecontainer a{
+  z-index: 1000;
+}
+
     @include mobile {
         width: 100%;
         max-height: 300px;
       }
 
-
   img {
    width: 100%;
     height: 100%;
-    object-fit: cover;
+    // object-fit: cover;
 
-        @include mobile {
-          object-fit: contain;
-     }
+
+    //     @include mobile {
+    //       object-fit: contain;
+    //  }
    }
 }
 
@@ -107,7 +111,7 @@ text-align: center;
     }
 
     p{
-     color: gray;
+     color: rgb(210, 210, 210);
      font-size: 20px;
 
     @include mobile {
@@ -122,11 +126,12 @@ text-align: center;
      padding: 10px;
      width: 200px;
      cursor: pointer;
+     z-index: 1000;
 
 
     @include mobile {
       margin-top: -5px;
-
+    z-index: 1000;
       }
 
     }
@@ -135,3 +140,4 @@ text-align: center;
 }
 
 }
+

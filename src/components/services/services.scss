@@ -101,8 +101,17 @@
   .listcontainer {
     flex: 2;
     display: flex;
+    flex-direction: row;
     max-width: 1366px;
-    margin: auto;
+    margin:50px auto;
+
+
+    // .box p{
+
+    // padding: 6;
+    // }
+
+
 
     @include mobile {
       flex-direction: column;
@@ -110,17 +119,21 @@
     }
 
     .box {
-      padding: 50px;
-      border: 0.5px solid gray;
+      padding: 70px;
+      border: 0.5px solid orange;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+          width: 455.3px;
+
+
 
       @include mobile {
         border: 0.1px solid orange;
         align-items: center;
         gap: 20px;
         padding: 30px;
+        width: auto;
 
         box:active p {
           display: none;
@@ -159,4 +172,3 @@
     }
   }
 }
-
