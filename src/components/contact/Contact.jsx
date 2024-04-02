@@ -61,12 +61,12 @@ const Contact = () => {
 
 				<motion.div className="item" variants={variants}>
 					<h2> Address</h2>
-					<span>18, Utomi Aire street, Lagos, Nigeria</span>
+					<span>Lagos, Nigeria</span>
 				</motion.div>
 
 				<motion.div className="item" variants={variants}>
 					<h2> Phone</h2>
-					<span>+234 909 888 5677</span>
+					<span>+234 905 268 0325</span>
 				</motion.div>
 			</motion.div>
 

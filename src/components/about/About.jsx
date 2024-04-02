@@ -57,7 +57,7 @@ const About = () => {
 					<motion.h1 variants={textVariants}>
 						{" "}
 						Actively involved in the process of creating and
-						enhancing websites with React.
+						enhancing websites with React and Vite.
 					</motion.h1>
 					<motion.div variants={textVariants} className="buttons">
 						<motion.button variants={textVariants}>HTML</motion.button>
